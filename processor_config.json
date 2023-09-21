@@ -1,0 +1,13 @@
+{
+    "processor_type": "Wav2Vec2Processor",
+    "model_type": "facebook/wav2vec2-base",
+    "feature_extractor": {
+      "sampling_rate": 16000,
+      "do_normalize": true,
+      "return_attention_mask": true
+    },
+    "post_processor": {
+      "return_attention_mask": true
+    }
+  }
+  
