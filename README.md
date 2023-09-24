@@ -83,7 +83,7 @@ You can also run the FastAPI application inside a Docker container. First, make 
    docker run -p 8000:8000 swahili-asr
    ```
 
-   This command will start a Docker container from the `swahili-asr` image, mapping port 80 from the container to port 80 on your host machine.
+   This command will start a Docker container from the `swahili-asr` image, mapping port 8000 from the container to port 8000 on your host machine.
 
 You can access the FastAPI application running inside the Docker container at `http://localhost`. Enjoy Swahili audio transcription with our ASR model!
 
